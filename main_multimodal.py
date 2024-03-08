@@ -33,7 +33,7 @@ from encoders import TextEncoder2D
 from infinite_iterator import InfiniteIterator
 from losses import infonce_loss
 
-device_ids = [2]
+device_ids = [0]
 
 
 # ---------------------------- parser & args --------------------------

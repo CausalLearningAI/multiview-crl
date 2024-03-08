@@ -26,7 +26,7 @@ import spaces
 import utils
 
 if torch.cuda.is_available():
-    device = "cuda:1"
+    device = "cuda"
 else:
     device = "cpu"
 
