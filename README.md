@@ -41,7 +41,7 @@ pre-commit install
 python main_numerical.py
 
 # evaluate
-python main_numerical --evaluate
+python main_numerical.py --evaluate
 ```
 
 
@@ -59,7 +59,7 @@ Training and evaluation:
 python main_multimodal.py --dataroot "$PATH_TO_DATA"  --dataset "multimodal3di"
 
 # evaluate
-python main_multimodal --dataroot "$PATH_TO_DATA" --dataset "multimodal3di" --evaluate
+python main_multimodal.py --dataroot "$PATH_TO_DATA" --dataset "multimodal3di" --evaluate
 ```
 # Acknowledgements
 This implementation is built upon [multimodal-contrastive-learning](https://github.com/imantdaunhawer/multimodal-contrastive-learning) and [ssl_identifiability](https://github.com/ysharma1126/ssl_identifiability).

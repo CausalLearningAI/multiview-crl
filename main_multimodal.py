@@ -78,7 +78,7 @@ def parse_args():
     parser.add_argument(
         "--selection",
         type=str,
-        default="ground_truth",
+        default="concat",
         choices=["ground_truth", "gumbel_softmax", "concat", "soft"],
     )
 
